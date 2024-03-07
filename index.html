@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <style>
-        /* Style for the image container */
+        
         .image-container {
             display: flex;
             justify-content: center;
@@ -18,13 +18,13 @@
             height: 100vh;
         }
 
-        /* Style for the image */
+        
         .splash-image {
             max-width: 100%;
             max-height: 100%;
         }
 
-        /* Active link style */
+        
         .active-link {
             color: blue;
         }
@@ -33,7 +33,7 @@
 </head>
 
 <body class="bg-white">
-    <!-- Image Container -->
+    
     <div class="image-container">
         <img src="data:image/png;base64,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" alt="Splash Image" class="splash-image">
     </div>
@@ -70,7 +70,7 @@
     <section id="about" class="p-10 pl-4 pr-4 ml-6 mr-6 flex items-center">
         <div class="">
             <h2 class="text-2xl font-normal">About</h2>
-            <div class="flex items-center"> <!-- Use flex to align text with image -->
+            <div class="flex items-center"> 
                 <p class="font-extralight w-full">The Developer Student Clubs at Symbiosis Institute Of Technology, Pune, offer a gateway to Google Developers, focusing on mobile and web development, machine learning, and cloud technologies. We welcome enthusiasts of all levels, offering opportunities in competitive programming, ethical hacking, AR/VR, and more, fostering a collaborative environment for solving real-world problems.</p>
             </div>
         
@@ -79,24 +79,24 @@
     
     
 
-    <!-- Events Section -->
+    
     <section id="events" class="p-10 pl-4 pr-4 ml-6 mr-6">
         <h2 class="text-2xl font-bold">Events</h2>
         <div class="grid grid-cols-4 gap-4 mt-4">
             <div class="bg-slate-100 p-4 flex flex-col items-center rounded-lg shadow-md">
-                <img src="https://gdsc.iiitd.edu.in/static/media/homeGif.4b292ae71712ec870799.gif" alt="Event 1 Image" class="w-24 h-24 rounded-full mb-4"> <!-- Image -->
+                <img src="https://gdsc.iiitd.edu.in/static/media/homeGif.4b292ae71712ec870799.gif" alt="Event 1 Image" class="w-24 h-24 rounded-full mb-4"> 
                 <p class="text-center">Session on UI/UX</p>
             </div>
             <div class="bg-slate-100 p-4 flex flex-col items-center rounded-lg shadow-md">
-                <img src="https://gdsc.iiitd.edu.in/static/media/homeGif.4b292ae71712ec870799.gif" alt="Event 2 Image" class="w-24 h-24 rounded-full mb-4"> <!-- Image -->
+                <img src="https://gdsc.iiitd.edu.in/static/media/homeGif.4b292ae71712ec870799.gif" alt="Event 2 Image" class="w-24 h-24 rounded-full mb-4"> 
                 <p class="text-center">Session on Cybersecurity</p>
             </div>
             <div class="bg-slate-100 p-4 flex flex-col items-center rounded-lg shadow-md">
-                <img src="https://gdsc.iiitd.edu.in/static/media/homeGif.4b292ae71712ec870799.gif" alt="Event 3 Image" class="w-24 h-24 rounded-full mb-4"> <!-- Image -->
+                <img src="https://gdsc.iiitd.edu.in/static/media/homeGif.4b292ae71712ec870799.gif" alt="Event 3 Image" class="w-24 h-24 rounded-full mb-4"> 
                 <p class="text-center">Session on Web Development</p>
             </div>
             <div class="bg-slate-100 p-4 flex flex-col items-center rounded-lg shadow-md">
-                <img src="https://gdsc.iiitd.edu.in/static/media/homeGif.4b292ae71712ec870799.gif" alt="Event 4 Image" class="w-24 h-24 rounded-full mb-4"> <!-- Image -->
+                <img src="https://gdsc.iiitd.edu.in/static/media/homeGif.4b292ae71712ec870799.gif" alt="Event 4 Image" class="w-24 h-24 rounded-full mb-4"> 
                 <p class="text-center">Session on Machine Learning</p>
             </div>
         </div>
